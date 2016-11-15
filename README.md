@@ -2,6 +2,23 @@
 
 This project was generated with [angular-cli](https://github.com/angular/angular-cli) version 1.0.0-beta.19-3.
 
+## Installation
+```bash
+npm install
+```
+
+## Setup
+setup your firebase config in src/app/firebase.config.ts
+```js
+export const firebaseConfig = {
+  apiKey: "<apiKey>",
+  authDomain: "<authDomain>",
+  databaseURL: "<databaseURL>",
+  storageBucket: "<storageBucket>",
+  messagingSenderId: "<messagingSenderId>"
+};
+```
+
 ## Development server
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
